@@ -1,11 +1,15 @@
 # License Template
-This is a project template for creating licenses using [boilr](https://github.com/tmrts/boilr)
+This is a [parboil](https://github.com/jneug/parboil) project template for adding a license to your project.
 
 ## Install
-`boilr template download tmrts/boilr-license license`
+`boil install -d jneug/parboil-license license`
 
 ## Usage
-`boilr template use license <my-project-dir>`
+`boil use license MY/PROJECT/DIR`
 
-## More Information
-For more information please check [boilr](https://github.com/tmrts/boilr)
+or 
+
+```
+cd MY/PROJECT/DIR
+boil use license
+```
